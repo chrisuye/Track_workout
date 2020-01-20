@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Workout</string>
+    <string name="abs_name">Abs</string>
+    <string name="arms_name">Arms</string>
+    <string name="back_name">Back</string>
+    <string name="calves_name">Calves</string>
+    <string name="chest_name">Chest</string>
+    <string name="legs_name">Legs</string>
+    <string name="shoulders_name">Shoulders</string>
+</resources>

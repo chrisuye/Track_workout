@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8000000"
+    tools:context=".AddWork">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Add Workout"
+        android:textColor="#0FFFFF"
+        android:textColorHighlight="#0FFFFF"
+        android:textColorHint="#0FFFFF"
+        android:textColorLink="#0FFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/name_in"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:hint="Workout name"
+        android:inputType="textPersonName"
+        android:textColor="#0FFFFF"
+        android:textColorHighlight="#0FFFFF"
+        android:textColorHint="#0FFFFF"
+        android:textColorLink="#0FFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/weight_in"
+        android:layout_width="130dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Weight"
+        android:inputType="number"
+        android:textColor="#0FFFFF"
+        android:textColorHighlight="#0FFFFF"
+        android:textColorHint="#0FFFFF"
+        android:textColorLink="#0FFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_in" />
+
+    <EditText
+        android:id="@+id/set_in"
+        android:layout_width="130dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Sets"
+        android:inputType="number"
+        android:textColor="#0FFFFF"
+        android:textColorHighlight="#0FFFFF"
+        android:textColorHint="#0FFFFF"
+        android:textColorLink="#0FFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weight_in" />
+
+    <EditText
+        android:id="@+id/rep_in"
+        android:layout_width="130dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Reps"
+        android:inputType="number"
+        android:textColor="#0FFFFF"
+        android:textColorHighlight="#0FFFFF"
+        android:textColorHint="#0FFFFF"
+        android:textColorLink="#0FFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/set_in" />
+
+    <RadioGroup
+        android:id="@+id/catogory_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_in">
+
+        <RadioButton
+            android:id="@+id/abs_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#0FFFFF"
+            android:text="Abs"
+            android:textColor="#0FFFFF"
+            android:textColorHighlight="#0FFFFF"
+            android:textColorHint="#0FFFFF"
+            android:textColorLink="#0FFFFF" />
+
+        <RadioButton
+            android:id="@+id/arms_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#0FFFFF"
+            android:text="Arms"
+            android:textColor="#0FFFFF"
+            android:textColorHighlight="#0FFFFF"
+            android:textColorHint="#0FFFFF"
+            android:textColorLink="#0FFFFF" />
+
+        <RadioButton
+            android:id="@+id/back_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#0FFFFF"
+            android:text="Back"
+            android:textColor="#0FFFFF"
+            android:textColorHighlight="#0FFFFF"
+            android:textColorHint="#0FFFFF"
+            android:textColorLink="#0FFFFF" />
+
+        <RadioButton
+            android:id="@+id/calves_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#0FFFFF"
+            android:text="Calves"
+            android:textColor="#0FFFFF"
+            android:textColorHighlight="#0FFFFF"
+            android:textColorHint="#0FFFFF"
+            android:textColorLink="#0FFFFF" />
+
+        <RadioButton
+            android:id="@+id/chest_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#0FFFFF"
+            android:text="Chest"
+            android:textColor="#0FFFFF"
+            android:textColorHighlight="#0FFFFF"
+            android:textColorHint="#0FFFFF"
+            android:textColorLink="#0FFFFF" />
+
+        <RadioButton
+            android:id="@+id/legs_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#0FFFFF"
+            android:text="Legs"
+            android:textColor="#0FFFFF"
+            android:textColorHighlight="#0FFFFF"
+            android:textColorHint="#0FFFFF"
+            android:textColorLink="#0FFFFF" />
+
+        <RadioButton
+            android:id="@+id/shoulders_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#0FFFFF"
+            android:text="Shoulders"
+            android:textColor="#0FFFFF"
+            android:textColorHighlight="#0FFFFF"
+            android:textColorHint="#0FFFFF"
+            android:textColorLink="#0FFFFF" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/note_in"
+        android:layout_width="381dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Note"
+        android:inputType="textMultiLine"
+        android:shadowColor="#0FFFFF"
+        android:textColor="#0FFFFF"
+        android:textColorHighlight="#0FFFFF"
+        android:textColorHint="#0FFFFF"
+        android:textColorLink="#0FFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/catogory_in" />
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#D8880000"
+        android:text="ADD"
+        android:textColor="#0FFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/note_in" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

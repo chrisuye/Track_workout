@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/all_drop"
+        android:title="All"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/abs_drop"
+        android:title="Abs"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/arms_drop"
+        android:title="Arms"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/back_drop"
+        android:title="Back"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/calves_drop"
+        android:title="Calves"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/chest_drop"
+        android:title="Chest"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/legs_drop"
+        android:title="Legs"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/shoulders_drop"
+        android:title="shoulders"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/add_drop"
+        android:icon="@drawable/ic_add_black_24dp"
+        android:title="Add"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>
